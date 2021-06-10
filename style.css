@@ -24,3 +24,34 @@ canvas {
     width: 100% !important;
     height: 100% !important;
   }
+
+
+
+  #barrilRadioactivo {
+    width: 160px;
+    height: 144px;
+    background-image: url(img/barrilsprite.png);
+
+    position: fixed;
+    left: 50%;
+    bottom: 40px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+  }
+  
+      #barrilRadioactivo:hover{
+        width: 160px;
+        height: 144px;
+        background-image: url(img/barrilsprite.png);
+        animation: playX 1s steps(4) infinite,
+             playY 1s steps(1) infinite;
+                   }
+        @keyframes playX {
+      from {background-position-x: 0px;}
+      to {background-position-x: -675px;}
+    }
+  
+    @keyframes playY {
+      from {background-position-y: 0px;}
+      to {background-position-y: -144px;}
+    }
