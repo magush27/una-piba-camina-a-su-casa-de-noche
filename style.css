@@ -55,3 +55,12 @@ canvas {
       from {background-position-y: 0px;}
       to {background-position-y: -144px;}
     }
+
+    #lista{
+     
+      text-align: center;
+    }
+  
+ul{
+  list-style-type: none;
+}
