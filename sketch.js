@@ -3,7 +3,8 @@ let estrella = []
 let cantidad = 100
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  canvas = createCanvas(displayWidth, displayHeight);
+  canvas.parent('anim');
   for (let i = 0; i<cantidad; i++) {
   estrella [i] = {}
   
