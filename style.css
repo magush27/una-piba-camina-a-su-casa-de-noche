@@ -1064,7 +1064,7 @@ a:hover, a:active{
   .barrilRadioactivo {
     width: 160px;
     height: 144px;
-    background-image: url(img/sprite/barril.png);
+    background-image: url(img/sprite/barril1.png);
     background-size: auto 100%;
     position: fixed;
     left: 50%;
