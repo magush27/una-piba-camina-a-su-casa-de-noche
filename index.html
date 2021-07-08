@@ -1,5 +1,9 @@
 <!DOCTYPE html><html lang="en"><head>
 
+    <!--P5-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
+    <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -9,13 +13,22 @@
   </head>
 
   <body>
-        <img src="img/poster.png" alt="Poster del juego, presenta una figura de espaldas caminando por una calle">
-        
-        <ul>
-            <li><a href="historia.html">Jugar</a></li>
+    <div id="anim" class="w-100 h-100"></div>
+
+    
+         <ul class="seleccionMenu">
             <li><a href="caja.html">Caja de Herramientas</a></li>
-        </ul>
-  
+            <li><a href="historia.html">Jugar</a></li>
+         </ul>
+         
+        <img src="img/posterhorizontal.png" class="posterInicio fixed-bottom" alt="Poster del juego, presenta una figura de espaldas caminando por una calle">
+        
+    
+  <!--Sketch de P5 para el fondo-->
+    
+  <div class="position-relative">
+    <script src="sketch.js"></script>
+  </div>
 
 </body>
 </html>

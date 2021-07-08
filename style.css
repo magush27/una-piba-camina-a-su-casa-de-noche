@@ -3,14 +3,36 @@
 }
 
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 670px) {
    html {
       font-size: 2em;
+    }
+
+    .posterInicio{
+      width: 55vw;
+      height: 80vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10%;
+      z-index: 2;
+    }
+
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 0px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
     }
   }
   
   /* If the screen size is 600px or less, set the font-size of <div> to 30px */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 669px) {
    html {
       font-size: 1.2em;
     }
@@ -18,7 +40,971 @@
       padding: 3em 5%;
       line-height: 1.5em;
     }
+
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+
   }
+
+
+  /* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+  html {
+    font-size: 1.2em;
+  }
+  tw-story {
+    padding: 3em 5%;
+    line-height: 1.5em;
+  }
+
+  .posterInicio{
+    width: 100vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+  }
+  .seleccionMenu {
+    font-size: 3rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      font-size: 1.2em;
+    }
+    tw-story {
+      padding: 3em 5%;
+      line-height: 1.5em;
+    }
+  
+    .posterInicio{
+      width: 100vw;
+      height: 50vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 2;
+    }
+    .seleccionMenu {
+      font-size: 3rem;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 5%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+}
 
   @font-face {
     font-family: "MrPixel";
@@ -26,18 +1012,47 @@
     }
 
 body {
-    background: linear-gradient(0deg, rgba(34,51,195,1) 0%, rgba(0,0,0,1) 16%, rgba(0,0,0,1) 100%);
-    background-attachment: fixed;
+    background: black;
     font-family: 'MrPixel';
+
+    
 }
 
+.gradienteAzul{
+    background: linear-gradient(0deg, rgba(34,51,195,1) 0%, rgba(0,0,0,1) 16%, rgba(0,0,0,1) 100%);
+    background-attachment: fixed;
+}
+
+a{
+  text-decoration: none;
+  color:#17fa02;
+  text-shadow: 1px 1px 3px #17fa02;
+}
+
+a:hover, a:active{
+  text-decoration: none;
+  color:#E3E;
+  text-shadow: 1px 1px 3px #17fa02;
+}
+
+  
 
 
-canvas {
+  canvas {
     width: 100% !important;
     height: 100% !important;
     position: fixed;
     z-index: 1;
+  }
+
+  .estatico {
+    position:absolute;
+    top: 48.5%;
+    
+  }
+  
+  .estatico:hover {
+    opacity:0;
   }
 
   tw-story{
@@ -46,7 +1061,7 @@ canvas {
     line-height: 1.5em;
   }
 
-  #barrilRadioactivo {
+  .barrilRadioactivo {
     width: 160px;
     height: 144px;
     background-image: url(img/sprite/barril.png);
@@ -57,28 +1072,11 @@ canvas {
     transform: translate(-50%, -30%);
     margin: 0 auto;
   }
-  
-      #barrilRadioactivo:hover{
-        width: 160px;
-        height: 144px;
-        background-image: url(img/sprite/barril.png);
-        animation: playX 1s steps(4) infinite,
-             playY 1s steps(1) infinite;
-                   }
-        @keyframes playX {
-      from {background-position-x: 0px;}
-      to {background-position-x: -100%;}
-    }
-  
-    @keyframes playY {
-      from {background-position-y: 0px;}
-      to {background-position-y:-100%;}
-    }
 
-    #defengochi {
+    .defengochi {
       width: 160px;
       height: 144px;
-      background-image: url(img/sprite/defengochi.png);
+      background-image: url(img/sprite/defengochi1.png);
       background-size: auto 100%;
       position: fixed;
       left: 50%;
@@ -86,28 +1084,11 @@ canvas {
       transform: translate(-50%, -30%);
       margin: 0 auto;
     }
-    
-        #defengochi:hover{
-          width: 160px;
-          height: 144px;
-          background-image: url(img/sprite/defengochi.png);
-          animation: playX 1s steps(2) infinite,
-               playY 1s steps(1) infinite;
-                     }
-          @keyframes playX {
-        from {background-position-x: 0%;}
-        to {background-position-x:-100%;}
-      }
-    
-      @keyframes playY {
-        from {background-position-y: 0px;}
-        to {background-position-y:-100%;}
-      }
   
-      #luceroDelAlba {
+      .luceroDelAlba {
         width: 160px;
         height: 144px;
-        background-image: url(img/sprite/lucero.png);
+        background-image: url(img/sprite/lucero1.png);
         background-size: auto 100%;
         position: fixed;
         left: 50%;
@@ -115,23 +1096,31 @@ canvas {
         transform: translate(-50%, -30%);
         margin: 0 auto;
       }
-      
-          #luceroDelAlba:hover{
-            width: 160px;
-            height: 144px;
-            background-image: url(img/sprite/lucero.png);
-            animation: playX 1s steps(6) infinite,
-                 playY 1s steps(1) infinite;
-                       }
-            @keyframes playX {
-          from {background-position-x: 0%;}
-          to {background-position-x:-100%;}
-        }
-      
-        @keyframes playY {
-          from {background-position-y: 0px;}
-          to {background-position-y:-100%;}
-        }
+
+      .drone {
+        width: 160px;
+        height: 144px;
+        background-image: url(img/sprite/drone1.png);
+        background-size: auto 100%;
+        position: fixed;
+        left: 50%;
+        bottom: -1%;
+        transform: translate(-50%, -30%);
+        margin: 0 auto;
+      }
+
+      .explosion {
+        width: 160px;
+        height: 144px;
+        background-image: url(img/sprite/explosion.gif);
+        background-size: auto 100%;
+        position: fixed;
+        left: 50%;
+        bottom: -1%;
+        transform: translate(-50%, -30%);
+        margin: 0 auto;
+      }
+
 
 
     #lista{
