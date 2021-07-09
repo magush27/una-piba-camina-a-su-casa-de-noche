@@ -1017,7 +1017,7 @@ body {
 
     
 }
-
+aguantelapalta27
 .gradienteAzul{
     background: linear-gradient(0deg, rgba(34,51,195,1) 0%, rgba(0,0,0,1) 16%, rgba(0,0,0,1) 100%);
     background-attachment: fixed;
@@ -1098,6 +1098,18 @@ a:hover, a:active{
     transform: translate(-50%, -30%);
     margin: 0 auto;
     transition: background-img 2s;
+  }
+
+  .barrilRadioactivo:hover {
+    width: 160px;
+    height: 144px;
+    background-image: url(img/sprite/barril.gif);
+    background-size: auto 100%;
+    position: fixed;
+    left: 50%;
+    bottom: -1%;
+    transform: translate(-50%, -30%);
+    margin: 0 auto;
   }
 
     .defengochi {
