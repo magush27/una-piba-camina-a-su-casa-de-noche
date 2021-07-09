@@ -1136,6 +1136,7 @@ a:hover, a:active{
     bottom: -1%;
     transform: translate(-50%, -30%);
     margin: 0 auto;
+    border: 0px;
   }
 
     .defengochi {
