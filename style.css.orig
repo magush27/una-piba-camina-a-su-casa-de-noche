@@ -1071,6 +1071,7 @@ a:hover, a:active{
     bottom: -1%;
     transform: translate(-50%, -30%);
     margin: 0 auto;
+<<<<<<< HEAD
     z-index: -1;
   }
 
@@ -1098,6 +1099,9 @@ a:hover, a:active{
     transform: translate(-50%, -30%);
     margin: 0 auto;
     transition: background-img 2s;
+=======
+    border: 0px;
+>>>>>>> b6d2f4b (correcciones)
   }
 
   .barrilRadioactivo:hover {
