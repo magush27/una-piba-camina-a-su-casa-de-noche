@@ -1126,6 +1126,18 @@ a:hover, a:active{
     border: 0px;
   }
 
+  .barrilRadioactivo:hover {
+    width: 160px;
+    height: 144px;
+    background-image: url(img/sprite/barril.gif);
+    background-size: auto 100%;
+    position: fixed;
+    left: 50%;
+    bottom: -1%;
+    transform: translate(-50%, -30%);
+    margin: 0 auto;
+  }
+
     .defengochi {
       width: 160px;
       height: 144px;
