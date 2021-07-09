@@ -73,8 +73,8 @@
       <div class="barrilRadioactivo"></div>
 =======
 
-      <img src="/img/sprite/barril1.png" alt="barril radioactivo" id="gif2" class="barrilRadioactivo">
->>>>>>> e0891d0 (correcciones)
+      <img src="/img/sprite/barril1.png" alt="" id="gif2" class="barrilRadioactivo">
+>>>>>>> 311ebc5 (correcciones)
      
 <style>
   
