@@ -1012,14 +1012,14 @@ and (orientation: landscape) {
     }
 
 body {
-    background: black;
-    font-family: 'MrPixel';
-}
-
-.gradienteAzul{
     background: linear-gradient(0deg, rgba(34,51,195,1) 0%, rgba(0,0,0,1) 16%, rgba(0,0,0,1) 100%);
     background-attachment: fixed;
     z-index: 0;
+    font-family: 'MrPixel';
+}
+
+.sinGradienteAzul{
+  background: black;
 }
 
 a{
