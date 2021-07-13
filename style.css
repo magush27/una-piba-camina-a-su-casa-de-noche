@@ -1017,7 +1017,7 @@ body {
 
     
 }
-aguantelapalta27
+
 .gradienteAzul{
     background: linear-gradient(0deg, rgba(34,51,195,1) 0%, rgba(0,0,0,1) 16%, rgba(0,0,0,1) 100%);
     background-attachment: fixed;
@@ -1060,6 +1060,7 @@ a:hover, a:active{
     z-index: 2;
     line-height: 1.5em;
   }
+  
 
   .barrilRadioactivo {
     width: 160px;
