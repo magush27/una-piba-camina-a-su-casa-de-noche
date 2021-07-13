@@ -1071,6 +1071,33 @@ a:hover, a:active{
     bottom: -1%;
     transform: translate(-50%, -30%);
     margin: 0 auto;
+    z-index: -1;
+  }
+
+  .barrilRadioactivo:hover{
+    width: 160px;
+    height: 144px;
+    background-image: url(img/sprite/barril.gif);
+    background-size: auto 100%;
+    position: fixed;
+    left: 50%;
+    bottom: -1%;
+    transform: translate(-50%, -30%);
+    margin: 0 auto;
+    transition: background-img 2s;
+  }
+
+  .barrilRadioactivo:active{
+    width: 160px;
+    height: 144px;
+    background-image: url(img/sprite/barril.gif);
+    background-size: auto 100%;
+    position: fixed;
+    left: 50%;
+    bottom: -1%;
+    transform: translate(-50%, -30%);
+    margin: 0 auto;
+    transition: background-img 2s;
   }
 
     .defengochi {
@@ -1084,7 +1111,31 @@ a:hover, a:active{
       transform: translate(-50%, -30%);
       margin: 0 auto;
     }
-  
+    .defengochi:hover{
+      width: 160px;
+      height: 144px;
+      background-image: url(img/sprite/defengochi.gif);
+      background-size: auto 100%;
+      position: fixed;
+      left: 50%;
+      bottom: -1%;
+      transform: translate(-50%, -30%);
+      margin: 0 auto;
+      transition: background-img 2s;
+    }
+
+    .defengochi:active{
+      width: 160px;
+      height: 144px;
+      background-image: url(img/sprite/defengochi.gif);
+      background-size: auto 100%;
+      position: fixed;
+      left: 50%;
+      bottom: -1%;
+      transform: translate(-50%, -30%);
+      margin: 0 auto;
+      transition: background-img 2s;
+    }
       .luceroDelAlba {
         width: 160px;
         height: 144px;
@@ -1095,8 +1146,32 @@ a:hover, a:active{
         bottom: -1%;
         transform: translate(-50%, -30%);
         margin: 0 auto;
+        transition: background-img 2s;
       }
-
+      .luceroDelAlba:hover {
+        width: 160px;
+        height: 144px;
+        background-image: url(img/sprite/lucero.gif);
+        background-size: auto 100%;
+        position: fixed;
+        left: 50%;
+        bottom: -1%;
+        transform: translate(-50%, -30%);
+        margin: 0 auto;
+        transition: background-img 2s;
+      }
+      .luceroDelAlba:active {
+        width: 160px;
+        height: 144px;
+        background-image: url(img/sprite/lucero.gif);
+        background-size: auto 100%;
+        position: fixed;
+        left: 50%;
+        bottom: -1%;
+        transform: translate(-50%, -30%);
+        margin: 0 auto;
+        transition: background-img 2s;
+      }
       .drone {
         width: 160px;
         height: 144px;
@@ -1107,6 +1182,32 @@ a:hover, a:active{
         bottom: -1%;
         transform: translate(-50%, -30%);
         margin: 0 auto;
+      }
+
+      .drone:hover {
+        width: 160px;
+        height: 144px;
+        background-image: url(img/sprite/drone.gif);
+        background-size: auto 100%;
+        position: fixed;
+        left: 50%;
+        bottom: -1%;
+        transform: translate(-50%, -30%);
+        margin: 0 auto;
+        transition: background-img 2s;
+      }
+
+      .drone:active {
+        width: 160px;
+        height: 144px;
+        background-image: url(img/sprite/drone.gif);
+        background-size: auto 100%;
+        position: fixed;
+        left: 50%;
+        bottom: -1%;
+        transform: translate(-50%, -30%);
+        margin: 0 auto;
+        transition: background-img 2s;
       }
 
       .explosion {
