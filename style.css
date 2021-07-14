@@ -41,7 +41,7 @@
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
 
@@ -84,7 +84,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -124,7 +124,7 @@ and (orientation: portrait) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -164,7 +164,7 @@ and (orientation: landscape) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -206,7 +206,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -245,7 +245,7 @@ and (orientation: portrait) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -284,7 +284,7 @@ and (orientation: landscape) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -325,7 +325,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -363,7 +363,7 @@ and (orientation: portrait) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -401,7 +401,7 @@ and (orientation: landscape) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -440,7 +440,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -478,7 +478,7 @@ and (orientation: portrait) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -526,7 +526,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -564,7 +564,7 @@ and (orientation: portrait) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -602,7 +602,7 @@ and (orientation: landscape) {
     font-size: 1.2em;
   }
   tw-story {
-    padding: 30px 5%;
+    padding: 30px 5% !important;
     line-height: 1.5em;
   }
 
@@ -641,7 +641,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
@@ -679,7 +679,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
@@ -717,7 +717,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
@@ -756,7 +756,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
@@ -794,7 +794,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
@@ -832,7 +832,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
@@ -871,7 +871,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
@@ -911,7 +911,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
@@ -951,7 +951,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
@@ -990,7 +990,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
@@ -1030,7 +1030,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
@@ -1070,7 +1070,7 @@ and (orientation: landscape) {
       font-size: 1.2em;
     }
     tw-story {
-      padding: 30px 5%;
+      padding: 30px 5% !important;
       line-height: 1.5em;
     }
   
