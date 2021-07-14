@@ -13,12 +13,17 @@
 body {
     background: black;
     font-family: 'MrPixel';
+    font-size: 1.5em;
 
     
 }
 
-
-
+h1 {
+    color: white;
+}
+p {
+    color: white;
+}
 .gradienteAzul{
     background: linear-gradient(0deg, rgba(34,51,195,1) 0%, rgba(0,0,0,1) 16%, rgba(0,0,0,1) 100%);
     background-attachment: fixed;
@@ -36,17 +41,19 @@ a:hover, a:active{
   text-shadow: 1px 1px 3px #17fa02;
 }
 
-  
 
 
   canvas {
     width: 100% !important;
     height: 100% !important;
     position: fixed;
-    z-index: 1;
+    z-index: 0;
   }
 
-
+img {
+    position:relative;
+    z-index: 2;
+}
 
 
     #lista{

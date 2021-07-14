@@ -1,18 +1,29 @@
 <!DOCTYPE html><html lang="en"><head>
     <title>Caja de herramientas</title>
+        <!--P5-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     
     <link rel="stylesheet" type="text/css" href="stylo.css">
     <meta charset="utf-8">
 
   </head>
-  <body>
+  <body class= "gradienteAzul">
     
+    <div id="anim" class="w-100 h-100"></div>
     <div class = "text-center">
-        <h1>Caja de herramientas</h1>
-        <img src="img/toolkit.png" class="img-fluid" alt="Pixel art de una caja de herramientas">
-        <div class="container-sm">
-        <p> Una piba camina a su casa de noche es una historia interactiva desarrollada por Agus Las Peñas y Jael Caiero, desarrollada en 2021 en la cátedra de Tecnología Hipermedial de Licenciatura de Artes Electrónicas (UNTREF) e inspirada, entre otras cosas, por: </p></div>
+
+
+
+        <div class = "pt-5">
+          <img src="img/toolkit.png" class="img-fluid" alt="Pixel art de una caja de herramientas">
+        </div>
+          <div class="container-sm p-5">
+          <h1>Caja de herramientas</h1>
+          <p> Una piba camina a su casa de noche es una historia interactiva desarrollada por Agus Las Peñas y Jael Caiero, desarrollada en 2021 en la cátedra de Tecnología Hipermedial de Licenciatura de Artes Electrónicas (UNTREF) e inspirada, entre otras cosas, por: </p>
+          </div>
         <ul>
             <li><a href="https://zoowoman.website/wp/movies/una-chica-vuelve-a-casa-sola-de-noche/">Ana Lily Amirpour</a></li>
             <li><a href="https://w.itch.io/">Anna Anthropy</a></li>
@@ -25,14 +36,16 @@
             <li><a href="http://slimedaughter.com">Porpentine</a></li>
           </ul>
           <p>¡Gracias por jugar!</p>
-          <img src="img/avatar.png" alt="Avatar de Agus y Jael">
+          <img src="img/avatar.png" alt="Avatar de Agus y Jael"><br>
 
           <a href="index.html">Inicio</a>
 
         
     </div>
 
-
+    <div class="position-relative">
+      <script src="sketch.js"></script>
+    </div>
   
 
 </body></html>
