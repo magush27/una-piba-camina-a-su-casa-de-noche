@@ -1,0 +1,63 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+  @font-face {
+    font-family: "MrPixel";
+    src: url("./fonts/MrPixel/mister_pixel_regular.woff") format("woff");
+    }
+
+body {
+    background: black;
+    font-family: 'MrPixel';
+
+    
+}
+
+
+
+.gradienteAzul{
+    background: linear-gradient(0deg, rgba(34,51,195,1) 0%, rgba(0,0,0,1) 16%, rgba(0,0,0,1) 100%);
+    background-attachment: fixed;
+}
+
+a{
+  text-decoration: none;
+  color:#17fa02;
+  text-shadow: 1px 1px 3px #17fa02;
+}
+
+a:hover, a:active{
+  text-decoration: none;
+  color:#E3E;
+  text-shadow: 1px 1px 3px #17fa02;
+}
+
+  
+
+
+  canvas {
+    width: 100% !important;
+    height: 100% !important;
+    position: fixed;
+    z-index: 1;
+  }
+
+
+
+
+    #lista{
+     
+      text-align: center;
+    
+    }
+  
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+     
+  
