@@ -5,6 +5,7 @@ let cantidad = 100
 function setup() {
   canvas = createCanvas(displayWidth, displayHeight);
   canvas.parent('anim');
+  noStroke();
   for (let i = 0; i<cantidad; i++) {
   estrella [i] = {}
   
