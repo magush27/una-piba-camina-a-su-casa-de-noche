@@ -42,7 +42,7 @@
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
 
     .posterInicioMobile{
@@ -85,7 +85,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -125,7 +125,7 @@ and (orientation: portrait) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -165,7 +165,7 @@ and (orientation: landscape) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -207,7 +207,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -246,7 +246,7 @@ and (orientation: portrait) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -285,7 +285,7 @@ and (orientation: landscape) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -326,7 +326,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -364,7 +364,7 @@ and (orientation: portrait) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -402,7 +402,7 @@ and (orientation: landscape) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -441,7 +441,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -479,7 +479,7 @@ and (orientation: portrait) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -527,7 +527,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -565,7 +565,7 @@ and (orientation: portrait) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -603,7 +603,7 @@ and (orientation: landscape) {
   }
   tw-story {
     padding: 30px 5% !important;
-    line-height: 1.5em;
+    line-height: 1.1em !important;
   }
 
   .posterInicioMobile{
@@ -642,7 +642,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -680,7 +680,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -718,7 +718,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -757,7 +757,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -795,7 +795,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -833,7 +833,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -872,7 +872,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -912,7 +912,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -952,7 +952,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -991,7 +991,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -1031,7 +1031,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -1071,7 +1071,7 @@ and (orientation: landscape) {
     }
     tw-story {
       padding: 30px 5% !important;
-      line-height: 1.5em;
+      line-height: 1.1em !important;
     }
   
     .posterInicioMobile{
@@ -1149,7 +1149,7 @@ a:hover, a:active{
   tw-story{
     position: relative;
     z-index: 2;
-    line-height: 1.5em;
+    line-height: 1.1em;
   }
   
 
