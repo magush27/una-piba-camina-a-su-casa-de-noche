@@ -1394,7 +1394,7 @@ a:hover, a:active{
   .seleccionMenu a{
     text-decoration: none;
     color:#ffffff;
-    text-shadow: 1px 1px 4px #E3E;
+    text-shadow: 1px 1px 6px #E3E;
   }
   
   .seleccionMenu a:hover, a:active{
