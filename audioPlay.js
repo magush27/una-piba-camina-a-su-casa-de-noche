@@ -1,9 +1,21 @@
-let audiounapiba = document.querySelector('#audioJuego')
+let audiounapiba = document.querySelector('#audioJuego');
+var imagen =  document.getElementById("musicaOnOff");
+var clickConteo = 0;
 
-function reproducirAudio(){
-    audiounapiba.volume = 0.2;
-    audiounapiba.play()
-    console.log("Reproducir audio")
+
+function cambiarIconoMusica() {
+    if (imagen.getAttribute('src') == "img/soundoff.png")
+    {
+        imagen.src = "img/soundon.png";
+        audiounapiba.play();
+        console.log("hola")
+    }
+    else
+    {
+        imagen.src = "img/soundoff.png";
+        audiounapiba.pause();
+    }
 }
 
-document.addEventListener('click', reproducirAudio)
+
+   

@@ -1368,8 +1368,8 @@ a:hover, a:active{
       }
 
       .explosion {
-        width: 160px;
-        height: 144px;
+        width: auto;
+        height: 100%;
         background-image: url(img/sprite/explosion.gif);
         background-size: auto 100%;
         position: fixed;
@@ -1391,4 +1391,14 @@ a:hover, a:active{
     padding: 0;
   }
      
+  .seleccionMenu a{
+    text-decoration: none;
+    color:#ffffff;
+    text-shadow: 1px 1px 3px #17fa02;
+  }
   
+  .seleccionMenu a:hover, a:active{
+    text-decoration: none;
+    color:#E3E;
+    text-shadow: 1px 1px 3px #17fa02;
+  }
