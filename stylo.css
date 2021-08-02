@@ -1,7 +1,7 @@
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 670px) {
   body {
-     font-size: 2em!important;
+     font-size: 2.5em!important;
    }
 
    .seleccionMenu {
@@ -744,7 +744,7 @@ and (orientation: landscape) {
 body {
     background: black;
     font-family: 'MrPixel';
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
 
 h1 {
